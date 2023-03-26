@@ -1,0 +1,82 @@
+4. Креирање директориум и иницијализација како git
+mkdir SI_2023_lab1_203089
+cd SI_2023_lab1_203089
+git init
+
+5. Поврзување со remote репозиториум
+git branch -M master
+git remote add origin https://github.com/aleksandrapendovska/SI_2023_lab1_203089.git
+
+6. Креирање README и commit
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+
+7. Креирање SILab1.java и commit
+nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+
+
+8. Синхронизација со remote репозиториум
+git push origin master
+
+9. Креирање на три гранки
+git branch bug1
+git branch bug2
+git branch bug3
+
+10. Влегуваме во гранката bug1
+git checkout bug1
+
+11. Повправање грешка и commit
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+
+12. Влегуваме во гранката bug2
+git checkout bug2
+
+13. Повправање грешка и commit
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+14. Влегуваме во гранката bug3
+git checkout bug3
+
+15. Повправање грешка и commit
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+
+16. Синхронизација на сите гранки
+git push --all origin
+
+17. git checkout master
+
+18. git merge bug1
+
+19. git push --all origin
+
+20. git merge bug2
+
+21. git push --all origin
+
+22. git checkout bug3
+
+23. git rebase master
+
+24. git checkout master
+
+25. git merge bug3
+
+26. git push --all --force origin
+
+27. git log
+nano logs.txt
+git add logs.txt
+git add 203089.txt
+git commit -m "Final commit"
+
+

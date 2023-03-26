@@ -1,0 +1,36 @@
+commit fff78101fc94d14f520dbb51f49093aba3bbef83 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:08:51 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 520f0164d95c63162466eb136b529e753196a1f6
+Merge: 1d29756 102645a
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:09:29 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 102645ad4250e2ed5481009cfeb46fb56172510c (origin/bug2, bug2)
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:08:15 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 1d2975689e981d1b7b5c2348acd41f09cc279c81 (origin/bug1, bug1)
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:07:41 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 29e2320bebe55e23c28453048e06108d1d7c372f
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:06:44 2023 +0200
+
+    Add java class
+
+commit 652a39c87a8ea17b0ec32d780746b27cb456fadb
+Author: Aleksandra Pendovska <aleksandrapendovska@Aleksandras-MacBook-Pro.local>
+Date:   Sun Mar 26 15:06:22 2023 +0200
+
+    Initial commit
